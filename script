@@ -1,0 +1,636 @@
+###########SAUVEGARDE 1###############
+
+[Lower brain functions initialized]
+
+Vous êtes dans un local poubelle.  Il fait tout noir. Il y a des néons au
+plafond, mais ils sont éteints.  Seul un éclairage d'urgence de faible
+intensité, au niveau du sol, éclaire un peu la pièce.  Le sol et les murs
+sont couverts de carrelage, probablement pour faciliter le nettoyage. Une
+porte équipée d'une barre anti-panique donne sur une autre pièce.
+
+Ici se trouvent des déchets.
+Ici se trouve un conteneur-poubelle.
+Ici se trouve une inscription sur le sol.
+
+>>> go nort
+Dans quelle direction ?
+
+>>> go north
+Vous êtes dans une sorte d'atelier, assez haut de plafond.  Toujours pas
+de fenêtre.  Malgré la faible intensité de l'éclairage d'urgence, vous
+distinguez une espèce de grande trappe dans le plafond.  Elle est fermée.
+Le mur ouest porte une inscription à moitié illisible à cause de l'obscurité :
+        _     _   _     ___  _     __ __ ____         __ _  _ _ _ _        _  
+   /    /  __/ ___|   __| |   | __  |    \        _   _| _ _ |          \ 
+    _    |              |     |  _  | |_)    /     |   |   |     |        
+ /  __    __  |_ _    __|    _|  ___   _ <  / _    | | | |     |_| |      
+ _     _\ ___  _  |__ __ _    |___ _ _| \_\ _/   \_\_    _  _| __ /|    _\
+
+En dessous, il y a une porte blindée bardée de panneaux avec des pictogrammes
+en forme d'éclair, de point d'exclamation, de tête de mort...  Et la mention : 
+"portez un casque et des lunettes de protection".  Vous avisez aussi deux autres 
+portes : une la mention "local poubelle" tandis que l'autre est surmontée d'une 
+lampe qui indique une sortie de secours.
+
+Ici se trouve un interrupteur sur le mur.
+Ici se trouve une inscription sur la porte blindée.
+
+>>> go est
+Vous êtes dans un couloir très sombre, orienté nord-sud.  Sur un des murs 
+vous distinguez une rangée de néon éteints, mais l'éclairage d'urgence au 
+niveau du sol, lui, est opérationnel.  Au plafond, il y a des passages de 
+cables, des conduits d'aérations, des canalisations, etc.  Quelques portes 
+fermées à clef donnent on ne sait où.  Deux portes palières donnent sur les 
+extrémités nord et sud du couloir.  Il y a aussi une porte marquée "trappe 
+d'accès" au milieu du couloir (côté ouest).
+
+Ici se trouve un plan des lieux (pour la sécurité incendie).
+
+>>> regarder plan
+NIVEAU SS
+=========
+                                                     XXX -- datacenter
+                                                      | 
+                                                      |
+                                                      |
+                                                      |
+                                                     XXX
+                                                      |
+                                                      |
+                          local de service            |
+                                  |                   |
+             XXX ----------------XXX---------------- XXX 
+              |                                       |
+              |  +------------------+                 |
+              |  |                  |                 |
+              |  |                  |                 |
+              +--+     ???????      |---  trappe --- XXX <====== [Vous êtes ici]
+              |  |                  |       |         |
+              |  |                  |   poubelle      |
+              |  +------------------+                 |
+              |                                       |
+             XXX ----------------XXX---------------- XXX
+              |                 
+              | 
+              | 
+              | 
+             XXX  
+              |                                       
+              |                                       
+              |                                       
+              |  
+             XXX ----------------XXX---------------- XXX 
+              |                   |                   |
+              |            local de service           |
+              |                                       |
+              |                                       |
+      ??? .. XXX                                     XXX 
+              |                                       | 
+              |                                       |
+              |                                       |
+              |                                       |
+  réserve -- XXX                                     XXX -- local électrique
+
+>>> go north
+*Vous arrivez dans un petit couloir en forme d'arc de cercle, en béton nu, 
+assez sale et poussiereux.  Il y a des traces d'infiltration d'eau sur les murs.  
+Personne n'a dû venir ici depuis un bon moment.  L'éclairage normal est en 
+rade, mais l'éclairage d'urgence fonctionne.  Il y a pas mal de portes qui 
+donnent sur des locaux techniques (plomberie, climatisation, courants faibles, 
+etc.) mais elles sont toutes verrouillées.  Trois portes donnent sur des galleries 
+à l'ouest, au nord et au sud.
+
+Ici se trouve un ascenseur.
+Ici se trouve une tourelle de défense inactive (Mk 3).
+
+>>> go north
+Il n'y a pas de *GO
+
+>>> *go north
+Il n'y a pas de *GO
+
+>>> go north
+Vous êtes dans un couloir assez obscur, orienté nord-sud.
+
+Ici se trouve une inscription sur le mur.
+
+>>> go north
+Vous arrivez dans une pièce en forme d'arc de cercle, avec l'éclairage 
+d'urgence.  Du texte est peint sur un mur, mais l'inscription est en 
+partie effacée :
+                              _ __    _   
+                                _ \ __  \ 
+                               _         |
+                                __/ /  _/ 
+                             |  _ _| __ _|
+Une porte donne sur une gallerie vers le sud.  Une autre porte
+est marquée ``DSI DATACENTER 0'' (vers l'est).
+
+Ici se trouve un ascenseur.
+
+>>> go north
+Impossible depuis cet endroit
+
+>>> go est
+Vous arrivez dans ce qui est manifestement une salle serveur.  Tout est éteint
+et silencieux.  Il y a de l'éclairage de secours et vous distinguez des dizaines
+de racks.  Ils ont un système de fermeture donc vous ne pouvez pas accéder aux 
+serveurs qu'ils contiennent.  L'un d'entre eux attire particulièrement votre 
+attention.  Il y a aussi un bureau dans un coin.
+
+Ici se trouve un rack plus blindé que les autres.
+Ici se trouve une inscription sur le mur.
+Ici se trouve un terminal d'administration système.
+Ici se trouve un clavier.
+Ici se trouve un mode d'emploi.
+Ici se trouve un telnet_client.py.
+
+>>> regarder clavier
+Un bon vieux modèle 104 touches, AZERTY.  Conçu pour durer il y a 45 ans.
+Sans surprise, il y a un post-it en dessous.  Il indique:
+U2FsdGVkX1/WbDYaSahussONHdqrjmzAV5tw28+04aVawcBc5Q/WRPfGjpmk7kof
+K21vDQxLYTRlBfRuHOwtzg==
+
+>>> lire inscription
+On dirait qu'elle a été tracé avec le doigt, avec un liquide marron foncé, 
+légèrement visqueux mais qui est complètement sec maintenant.  Elle dit :
+    
+      POST-IT PASSWORD: ISECR0XX
+
+>>> lire mode emploi
+C'est le guide d'utilisation du terminal d'administration système qui est 
+juste à côté.  Il fait 700 pages, donc vous sautez directement au chapitre 
+``Mise en route''.  En gros, il suffit d'appuyer sur le bouton et de se 
+laisser guide par l'interface utilisateur ultra-intuitive.  Les administrateurs
+sont néanmoins mis en garde face aux risques encourus et ils doivent avoir été
+soigneusement formés à l'utilisation des mécanismes de sécurité.  Pour éviter
+les risques, un mot de passe est demandé au boot.  Les bonnes pratiques de
+gestion des mots de passe sont rappelées : ne pas les mettre sur un post-it
+sous le clavier, etc.  En désespoir de cause, il est recommandé de chiffrer
+les mots de passe sur les post-it sous les clavier.  Ce serait mieux que rien.
+
+>>> ok go west
+Vous arrivez dans une pièce en forme d'arc de cercle, avec l'éclairage 
+d'urgence.  Du texte est peint sur un mur, mais l'inscription est en 
+partie effacée :
+                              _ __    _   
+                                _ \ __  \ 
+                               _         |
+                                __/ /  _/ 
+                             |  _ _| __ _|
+Une porte donne sur une gallerie vers le sud.  Une autre porte
+est marquée ``DSI DATACENTER 0'' (vers l'est).
+
+Ici se trouve un ascenseur.
+
+>>> go south
+Vous êtes dans un couloir assez obscur, orienté nord-sud.
+
+Ici se trouve une inscription sur le mur.
+
+>>> go south
+Vous arrivez dans un petit couloir en forme d'arc de cercle, en béton nu, 
+assez sale et poussiereux.  Il y a des traces d'infiltration d'eau sur les murs.  
+Personne n'a dû venir ici depuis un bon moment.  L'éclairage normal est en 
+rade, mais l'éclairage d'urgence fonctionne.  Il y a pas mal de portes qui 
+donnent sur des locaux techniques (plomberie, climatisation, courants faibles, 
+etc.) mais elles sont toutes verrouillées.  Trois portes donnent sur des galleries 
+à l'ouest, au nord et au sud.
+
+Ici se trouve un ascenseur.
+Ici se trouve une tourelle de défense inactive (Mk 3).
+
+>>> go south
+Vous êtes dans un couloir très sombre, orienté nord-sud.  Sur un des murs 
+vous distinguez une rangée de néon éteints, mais l'éclairage d'urgence au 
+niveau du sol, lui, est opérationnel.  Au plafond, il y a des passages de 
+cables, des conduits d'aérations, des canalisations, etc.  Quelques portes 
+fermées à clef donnent on ne sait où.  Deux portes palières donnent sur les 
+extrémités nord et sud du couloir.  Il y a aussi une porte marquée "trappe 
+d'accès" au milieu du couloir (côté ouest).
+
+Ici se trouve un plan des lieux (pour la sécurité incendie).
+
+>>> go south
+Vous arrivez dans un petit couloir en forme d'arc de cercle, avec l'éclairage 
+d'urgence.  Sur un mur il y a écrit :
+                                _   _  _   
+                             |_ _  |    |  
+                               __) | |  |_ 
+                                _ / __   _ 
+                             |_ ___|          
+
+Deux portes donnent sur les couloirs au nord et à l'ouest.
+
+Ici se trouve un ascenseur.
+
+>>> go south
+Impossible depuis cet endroit
+
+>>> go west
+Vous êtes dans un couloir orienté est-ouest.
+
+Ici se trouve une tourelle de défense inactive (Mk 2).
+
+>>> go west
+Vous arrivez dans une pièce en forme d'arc de cercle (270°), avec l'éclairage 
+d'urgence.  Trois portes donnent sur les couloirs vers l'est, le nord et le sud.
+
+Ici se trouve un ascenseur.
+
+>>> go west
+Impossible depuis cet endroit
+
+>>> go west
+Impossible depuis cet endroit
+
+>>> go south
+Vous êtes dans un couloir orienté nord-sud.  C'est presque le noir complet.  
+
+Ici se trouve une tourelle de défense inactive (Mk 1).
+
+>>> go west
+Impossible depuis cet endroit
+
+>>> go south
+Vous arrivez dans un petit couloir en forme d'arc de cercle, avec l'éclairage 
+d'urgence.  Un mur porte l'inscription :
+                                _ _     
+                               / |    | 
+                                      \ 
+                               |  _ _  |
+                                _|___   
+Trois portes conduisent au nord, au sud et à l'est.
+
+Ici se trouve une baie vitrée.
+
+>>> go south
+Vous êtes dans un couloir plongé dans l'obscurité, orienté nord-sud.  L'éclairage 
+d'urgence ne fonctionne qu'à moitié, donc vous n'y voyez rien du tout.
+
+Ici se trouve un tag sur le mur.
+
+>>> go south
+Vous arrivez dans un petit couloir en forme d'arc de cercle, avec l'éclairage 
+d'urgence.  Une porte fermée à clef porte un symbole ``livre'' ainsi qu'un panneau 
+``accès réservé au personnel''.  Une autre porte, qui elle n'est pas fermée 
+indique ``réserve''.  Enfin, une porte est marquée ``gallerie nord''.
+
+Ici se trouve un ascenseur.
+
+>>> go reserve
+Vous arrivez dans une pièce pleine de livres rangés sur des étagères.  Il fait
+vraiment sombre, et vous ne parvenez pas à distinguer les titres des ouvrages,
+sauf les quelques-un qui sont juste à côté de l'éclairage "sortie de secours" 
+près de la porte.
+
+Ici se trouve un guide OpenSSL (tome I) : chaînes de caractères.
+Ici se trouve un guide OpenSSL (tome II) : chiffrement symétrique.
+Ici se trouve un guide OpenSSL (tome III) : génération d'une paire de clef.
+Ici se trouve un guide OpenSSL (tome IV) : chiffrement à clef publique.
+Ici se trouve un guide OpenSSL (tome V) : signature.
+Ici se trouve un guide OpenSSL (tome VI) : script d'exemple.
+
+>>> LIRE guide
+Le mot GUIDE est ambigü. Cela pourrait être :
+ - guide OpenSSL (tome I) : chaînes de caractères
+ - guide OpenSSL (tome II) : chiffrement symétrique
+ - guide OpenSSL (tome III) : génération d'une paire de clef
+ - guide OpenSSL (tome IV) : chiffrement à clef publique
+ - guide OpenSSL (tome V) : signature
+ - guide OpenSSL (tome VI) : script d'exemple
+
+>>> LIRE guide OpenSSL (tome I) : chaînes de caractères
+Une chaine de caractère est une séquence de caractères.  La façon dont
+ces caractères sont représentés par des séquences de bits est decrite
+par un système d'encodage.  Il en existe de nombreux, et ils sont bien
+sûr tous incompatibles entre eux.  Certains ne permettent pas de
+représenter tous les caractères.  Par exemple, l'encodage ISO-8859-1
+(a.k.a.  latin-1) code les caractères sur un octet.  Il est bien adapté
+au monde occidental, mais ne contient pas les signes asiatiques, par
+exemple.  Le KOI8-R, lui, permet de représenter les caractères
+cyrilliques, etc.
+
+Le système unicode permet de représenter la plupart des caractères connus,
+mais il n'est pas très compact (4 octets par caractères).  Représenter des
+chaines de caractères comme des séquences de caractères unicode offre
+l'avantage de faire disparaître tous ces ennuyeux problèmes d'encodage. C'est
+le choix des concepteurs de Python.  Dans ce langage, une chaine de
+caractère (un objet de type "str") est représentée en mémoire dans le système
+unicode.
+
+Il existe aussi en python un autre type de chaine, les objets de type
+"bytes".  Il s'agit d'une simple séquence d'octets, comparable aux
+tableaux de type char qu'on a dans le langage C.
+
+>>> type("toto")
+<class 'str'>
+
+>>> type(bytes([0, 1, 2]))
+<class 'bytes'>
+
+Tout ceci a deux conséquences.
+
+
+A) Traitement du texte
+----------------------
+
+Les programmeurs doivent se soucier de ces problèmes d'encodage
+lorsqu'ils doivent transformer des chaines de caractères en séquences
+d'octets, par exemple pour les écrire dans un fichier, les envoyer sur
+le réseau, ou les transmettre à un autre programme (comme openssl...).
+Par défaut dans UGLIX, les chaines unicodes sont encodées en UTF-8
+lors de leur conversion en séquences d'octets.
+
+Les chaines unicodes ont une méthode "encode", qui prend en argument
+un encodage (la valeur par défaut est "utf-8").
+
+>>> 'toto'.encode()
+b'toto'
+
+>>> 'aïlle'.encode()
+b'a\xc3\xaflle'
+
+Quand ils sont affichés, les objets de type byte sont préfixés par la
+lettre 'b'.  Ils possèdent, eux, une méthode "decode", qui prend
+aussi en argument un encodage (utf8 par défaut).
+
+>>> b'\xc3\xa0 V\xc3\xa4\xc3\xafn\xc3\xb6'.decode()
+'à Väïnö'
+
+Une situation où l'encodage apparaît explicitement concerne l'utilisation de
+OpenSSL.  Il est nécessaire d'encoder les chaines de caractères unicode avant
+de les envoyer à openssl (lors du chiffrement), et il est nécessaire de les
+décoder en sortie de openssl (lors du déchiffrement) pour récupérer de
+l'unicode.
+
+
+B) Traitement des données binaires
+----------------------------------
+
+Il est parfois nécessaire d'envoyer ou de recevoir des requêtes
+contenant des données binaires, qui ne sont pas interprétables comme
+des chaines de caractères (il y a en effet des séquences d'octets qui
+sont des encodages invalides en UTF-8, et qui sont donc rejetées lors
+du décodage).  Par exemple :
+
+>>> s = bytes([5*i*i & 0xff for i in range(10)])
+>>> s.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb4 in position 6: invalid start byte
+
+Dans ce cas-là, il faudrait transmettre des objets de type bytes().  Le
+petit problème, c'est que les bytes() ne sont pas forcément affichables 
+sur un terminal conçu principalement pour afficher des caractères ASCII.
+Pour contourner cette difficulté, il faut encoder les bytes() en
+quelque chose qui soit du texte acceptable, pour en faire une str().
+Dans UGLIX, on utilise généralement à cette fin deux encodages : en base64
+(les séquences d'octets sont découpées en paquets de 6 bits, et chaque
+paquet est converti en une lettre) ou bien en hexadécimal.
+
+Pour ceci, on fait appel aux fonctions b64encode et b64decode du
+module base64.  Voici un exemple
+
+>>> import base64
+>>> base64.b64encode(s)
+b'AAUULVB9tPVAlQ=='
+
+Notez qu'on récupère des "bytes".  Mais ceux-là, on peut les convertir
+en texte sans douleur.
+
+>>> b'AAUULVB9tPVAlQ=='.decode()
+'AAUULVB9tPVAlQ=='
+
+Les objets de type "bytes" ont une méthode .hex() qui fait
+ce que son nom indique :
+
+>>> s.hex()
+'0005142d507db4f54095'
+
+De plus, on peut convertir la représentation hexadécimale en bytes()
+avec la "méthode de classe" bytes.fromhex() :
+
+>>> bytes.fromhex('deadbeef')
+b'\xde\xad\xbe\xef'
+
+>>> LIRE guide OpenSSL (tome II) : chiffrement symétrique
+CHIFFREMENT SYMÉTRIQUE
+======================
+
+L'essentiel des tâches de chiffrement peut être réalisé avec la
+bibliothèque OpenSSL (la version 1.0 est requise au minimum).
+
+La plupart du temps, les utilisateurs d'UGLIX chiffrent leurs fichiers
+avec un mécanisme à clef secrète et en utilisant un mot de passe.
+OpenSSL se débrouille pour convertir ce mot de passe en une clef
+secrète et un vecteur d'initialisation. De l'aléa est généralement
+introduit dans ce processus.
+
+Pour augmenter la portabilité, les utilisateurs d'UGLIX stockent
+généralement les fichiers chiffrés en les encodant en base64.
+
+Enfin, par défaut, les utilisateurs d'UGLIX sont invités à utiliser
+l'AES-128 en mode CBC pour chiffrer leurs données.
+
+Vous êtes invités à vous reporter à la documentation plus détaillée de
+OpenSSL, en particulier en exécutant "man openssl", "openssl enc
+help", ou bien en consultant la page du mode d'emploi de openssl
+dédiée au chiffrement symétrique ("man openssl-enc").
+
+Déchiffrer le fichier "foo" en utilisant le mot de passe "bar" peut
+logiquement s'accomplir par la commande :
+
+openssl enc -d -base64 -aes-128-cbc -pbkdf2 -pass pass:"bar" -in foo
+
+Il est très pratique de pouvoir invoquer openssl depuis des programmes.
+Pour cette raison, un autre script open-source est mis à la disposition
+de la communauté. On le trouve dans le guide intitulé "script d'exemple".
+
+Vous êtes invité à l'adapter à tous vos besoins.
+
+    ⚠      Il existe plusieurs versions de OpenSSL. Ce serveur UGLIX utilise
+   ⚠ ⚠     "OpenSSL 1.1.1d  10 Sep 2019". N'hésitez pas à vérifier avec la 
+  ⚠ | ⚠    commande "openssl version". Il FAUT une version supérieure à 1.1.1 !
+ ⚠  o  ⚠   Si vous avez la 1.1.0 (ou plus ancienne), l'option -pbkdf2 ne sera
+⚠⚠⚠⚠⚠⚠⚠⚠⚠  pas reconnue.
+    |      
+    |      Attention, sur les versions récentes de MacOS, "openssl" est en fait
+    |      LibreSSL (un fork). Et il est partiellement incompatible !
+
+
+>>> lire guide OpenSSL (tome III)
+GÉNÉRATION D'UNE PAIRE DE CLEFS
+===============================
+
+Openssl permet de générer des paires de clefs, avec la commande : 
+
+    openssl genpkey <options>
+
+Encore une fois, vous êtes encouragés à consulter "man genpkey" et 
+la documentation de openssl.  Par défaut, le résultat est envoyé sur
+la sortie standard.  Le résultat contient la paire de clefs, au format
+PEM (c'est de l'ASCII) propre à openssl et un peu pénible à décoder à
+la main. 
+
+Par exemple, pour générer une paire de clefs RSA de 1024 bits :
+
+    openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:1024
+
+
+Une commande permet d'extraire la clef publique uniquement, pour la
+communiquer à des tiers : 
+
+    openssl pkey -in <fichier contenant la clef secrète> -pubout
+
+
+
+CHIFFREMENT À CLEF PUBLIQUE
+===========================
+
+Openssl permet d'effectuer du chiffrement/déchiffrement asymétrique, avec
+l'algorithme RSA.  Vous êtes invité à consulter la page de manuel
+correspondante (man openssl-pkeyutl). 
+
+L'usage d'openssl pour effectuer des opérations de (dé)chiffrement asymétrique
+a deux limitations :
+
+1) Le message clair DOIT être plus court que la clef.  Si ce n'est pas le cas,
+   l'opération échoue avec un message "Public Key operation error, data too 
+   large for key size".  Avec une clef de 2000 bits, vous avez droit à environ
+   1800 bits de message.  C'est une limitation de l'algorithme lui-même.
+
+2) Openssl ne prévoit pas d'encoder le résultat de l'opération de chiffrement
+   en base64.  Par contre il y a une option pour l'encodage en... hexadécimal.
+
+La commande essentielle pour le chiffrement :
+
+   openssl pkeyutl -encrypt -hexdump -pubin -inkey <fichier contenant la clef publique>
+
+Ceci attend un message sur l'entrée standard, et affichera son chiffrement sur
+la sortie standard.  Pour déchiffrer, il faut fournir la clef secrète (et donc
+retirer l'option  "-pubin")
+
+>>> lire guide OpenSSL (tome V) : signature.
+
+Il n'y a pas de SIGNATURE.
+
+>>> Merci de vous exprimer clairement et de fournir un complément d'objet direct (valide).
+
+>>> lire guide OpenSSL (tome V) : signature
+SIGNATURES
+==========
+
+OpenSSL permet d'effectuer des signatures numériques et d'en vérifier avec
+plusieurs algorithmes, dont RSA.
+    
+La solution la plus courante consiste à utiliser une fonction de hachage
+cryptographique, et à signer l'empreinte du document à authentifier.  OpenSSL
+peut accomplir ceci automatiquement avec la commande  "openssl dgst".  Vous
+êtes invités à consulter la page de manuel correspondante
+("man openssl-dgst").  Par défaut, avec une clef RSA, cela produit des
+signatures PKCS#1 v1.5.  Voici les exemples les plus pertinents :
+    
+
+Production d'une signature
+--------------------------
+
+    openssl dgst -sha256 -sign secret_key.pem
+    
+Ceci attend les données à signer sur l'entrée standard, et envoie la
+signature sur la sortie standard.  L'option -hex peut être utile.
+    
+
+Vérification d'une signature
+----------------------------
+    
+    openssl dgst -sha256 -verify public_key.pem -signature signature.bin
+    
+Ceci attend sur l'entrée standard les données dont "signature.bin" contient
+une signature.
+    
+Les signatures sont des données binaires, donc on doit généralement les
+encoder, par exemple en hexadecimal avant de pouvoir les transmettre sans
+douleur.  L'option -hex ne permet pas de vérifier des signatures données en
+hexadécimal.
+
+
+REMARQUE IMPORTANTE
+-------------------
+Une signature n'est valide que si les **mêmes** données (prétendument signées)
+sont fournies lors de la production et de la vérification de la signature.  Or,
+lorsque l'une des deux étapes sont effectuées par un serveur distant, on ne 
+contrôle pas forcément les données en question.  Il faut savoir que la **majorité** 
+des éditeurs de texte (vi, nano, gedit, kate, emacs, ...) ajoutent un caractère "\n" 
+invisible à la fin de tous les fichiers.  Il est généralement impossible de 
+l'empêcher, or ceci peut entrainer l'invalidité des signatures.  On peut vérifier
+si c'est le cas en faisant passer le fichier à travers le programme "xxd".  Si on
+voit apparaître un octet 0x0a à la fin, c'est le "\n" maudit.
+    
+Une solution potentielle pour écrire un fichier sans caractère excédentaire 
+consiste à utiliser un petit programme du type :
+>>> # cet exemple est en python
+>>> f = open(FILENAME, "w")
+>>> f.write("contenu important")   # <--- pas de \n à la fin
+>>> f.close()
+
+L'autre solution consiste à écrire une fonction qui invoque directement OpenSSL,
+par exemple avec la fonction "subprocess.run()" de la librairie standard de python.
+
+>>> lire Ici se trouve un guide OpenSSL (tome VI) : script d'exemple
+import subprocess
+
+# ce script suppose qu'il a affaire à OpenSSL v1.1.1
+# vérifier avec "openssl version" en cas de doute.
+# attention à MacOS, qui fournit à la place LibreSSL.
+
+# en cas de problème, cette exception est déclenchée
+class OpensslError(Exception):
+    pass
+
+# Il vaut mieux être conscient de la différence entre str() et bytes()
+
+def encrypt(plaintext, passphrase, cipher='aes-128-cbc'):
+    """invoke the OpenSSL library (though the openssl executable which must be
+       present on your system) to encrypt content using a symmetric cipher.
+
+       The passphrase is an str object (a unicode string)
+       The plaintext is str() or bytes()
+       The output is bytes()
+
+       # encryption use
+       >>> message = "texte avec caractères accentués"
+       >>> c = encrypt(message, 'foobar')       
+    """
+    # prépare les arguments à envoyer à openssl
+    pass_arg = 'pass:{}'.format(passphrase)
+    args = ['openssl', 'enc', '-' + cipher, '-base64', '-pass', pass_arg, '-pbkdf2']
+    
+    # si plaintext est de stype str, on est obligé de l'encoder en bytes pour
+    # pouvoir l'envoyer dans le pipeline vers openssl
+    if isinstance(plaintext, str):
+        plaintext = plaintext.encode('utf-8')
+    
+    # ouvre le pipeline vers openssl. envoie plaintext sur le stdin de openssl, récupère stdout et stderr
+    #    affiche la commande invoquée
+    #    print('debug : {0}'.format(' '.join(args)))
+    result = subprocess.run(args, input=plaintext, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+    # si un message d'erreur est présent sur stderr, on arrête tout
+    # attention, sur stderr on récupère des bytes(), donc on convertit
+    error_message = result.stderr.decode()
+    if error_message != '':
+        raise OpensslError(error_message)
+
+    # OK, openssl a envoyé le chiffré sur stdout, en base64.
+    # On récupère des bytes, donc on en fait une chaine unicode
+    return result.stdout.decode()
+
+# TODO :
+# - implement the decrypt() method
+# - write a KeyPair class
+# - write a PublicKey class
+# - etc.
+
+
+
+
+
